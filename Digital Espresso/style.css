@@ -1,0 +1,85 @@
+/* header container */
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+  text-align: left;
+}
+
+/* logo */
+header .logo {
+
+  width:90px;
+  height:100px;
+  }
+
+
+ul{  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+li {
+  float: left;
+}
+
+/* navigation links */
+header nav a {
+  display: block;
+  width: 70px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color:#ac5906;
+}
+
+header nav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
+body {
+  color: white;
+  background-color: #ac5906;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+
+table {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+table img{
+  max-width: 250px;
+  max-height: 220px;
+}
+
+a:link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+table a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* footer container */
+footer {
+  padding: 20px;
+  text-align: center;
+}
